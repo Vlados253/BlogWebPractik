@@ -72,12 +72,30 @@ body{
 
 .header__container{
 	display: flex;
-	min-height: 104px;
+	min-height: 70px;
 	align-items:center;
 }
 
 .header__menu{
-	margin: 0 0 0 173px;
+	margin: 0 0 0 60px;
+}
+
+@media(max-width: 992px){
+	.header__menu {
+		margin: 0 0 0 40px;
+	}
+}
+
+@media(max-width: 767px){
+	.header__menu {
+		margin: 0 0 0 20px;
+	}
+}
+
+@media(max-width: 479px){
+	.header__menu {
+		margin: 0 0 0 10px;
+	}
 }
 
 .menu__link{
@@ -87,7 +105,7 @@ body{
 }
 
 .menu{
-
+	padding: 5px 0;
 }
 
 .menu__list{
@@ -97,4 +115,10 @@ body{
 
 .menu__item{
 	margin: 0 0 0 21px;
+}
+
+@media(max-width: 479px){
+	.menu__link{
+		font-size: 18px;
+	}
 }
