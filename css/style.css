@@ -39,6 +39,7 @@ body{
 	color: #757575;
 	font-weight: 500;
 	font-family: Montserrat;
+	background-color: #e3e3e3;
 }
 
 .wrapper{
@@ -53,7 +54,7 @@ body{
 	margin: 0px auto;
 }
 
-/*Шапка*/
+/****Header********************************************/
 
 .header{
 	position: absolute;
@@ -61,6 +62,7 @@ body{
 	left: 0;
 	top: 0;
 	z-index: 50;
+	background-color: white;
 }
 .header__container img{
 	width: 41px;
@@ -153,7 +155,7 @@ body{
 	height: 10px;
 }
 
-/*Slider*/
+/****Slider********************************************/
 
 .slider{
 	position: absolute;
@@ -214,3 +216,123 @@ body{
 	letter-spacing: 0.1em;
 	color: #ffffff;
 }
+
+/****Posts********************************************/
+
+.posts{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 395px;
+	z-index: 50;
+}
+
+.posts__container{
+	display: flex;
+	min-height: 2755px;
+}
+
+.main__menu{
+	padding: 86px 0;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.main__item__list{
+	display: flex;
+	align-content: flex-start;
+	flex-direction: column;
+	/*justify-content: space-around;*/
+	/*justify-content: space-evenly;*/
+	max-width: 367px;
+	/*padding-bottom: 59px;
+	padding-right: 29px;*/
+	/*margin: 0 0 0 29px;*/
+}
+
+.post1__image{
+	width: 367px;
+	height: 373px;
+}
+
+.post2__image{
+	width: 367px;
+	height: 459px;
+}
+
+.post3__image{
+	width: 367px;
+	height: 319px;
+}
+
+.item__text__1{
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: #3e3d3d;
+	padding-top:40px;
+}
+
+.item__text__2{
+	font-family: 'Crimson Text';
+	font-size: inherit;
+	line-height: 18px;
+	font-weight: 400;
+	font-style: italic;
+	color: #3e3d3d;
+	padding-top: 13px;
+	padding-bottom: 20px;
+}
+
+.item__text__3{
+	font-family: 'Crimson Text';
+	line-height: 25px;
+	font-weight: 400;
+	letter-spacing: 0.1em;
+	color: #3e3d3d;
+	padding-top: 30px;
+}
+
+.between__line{
+	display: flex;
+	align-items: center;
+	min-height: 37.8px;
+}
+
+.between__line__item{
+	margin: 0 0 0 10px;
+}
+
+.item__line{
+	width: 370px;
+	height: 1px;
+}
+
+.item__icon__1{
+	width: 13px;
+	height: 11px;
+}
+
+.item__icon__2{
+	width: 19px;
+	height: 12px;
+}
+
+.item__icon__3{
+	width: 13px;
+	height: 11px;
+}
+
+.icon__text{
+	font-family: 'Crimson Text';
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 400;
+	font-style: italic;
+	color: #818181;
+}
+
+/****Footer********************************************/
