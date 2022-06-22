@@ -229,7 +229,7 @@ body{
 
 .posts__container{
 	display: flex;
-	min-height: 2755px;
+	height: 100%;
 }
 
 .main__menu{
@@ -237,18 +237,21 @@ body{
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
+	justify-content: space-around;
+}
+
+.main__item{
+	display: block;
+	padding-bottom: 59px;
+	padding-right: 29px;
+	height: fit-content;
+	max-width: 370px;
 }
 
 .main__item__list{
 	display: flex;
-	align-content: flex-start;
 	flex-direction: column;
-	/*justify-content: space-around;*/
-	/*justify-content: space-evenly;*/
-	max-width: 367px;
-	/*padding-bottom: 59px;
-	padding-right: 29px;*/
-	/*margin: 0 0 0 29px;*/
+	height: fit-content;
 }
 
 .post1__image{
@@ -264,6 +267,36 @@ body{
 .post3__image{
 	width: 367px;
 	height: 319px;
+}
+
+.post4__image{
+	width: 367px;
+	height: 307px;
+}
+
+.post5__image{
+	width: 367px;
+	height: 459px;
+}
+
+.post6__image{
+	width: 367px;
+	height: 411px;
+}
+
+.post7__image{
+	width: 367px;
+	height: 307px;
+}
+
+.post8__image{
+	width: 367px;
+	height: 459px;
+}
+
+.post9__image{
+	width: 367px;
+	height: 411px;
 }
 
 .item__text__1{
@@ -333,6 +366,27 @@ body{
 	font-weight: 400;
 	font-style: italic;
 	color: #818181;
+}
+
+.button{
+	margin-top: 35px;
+	margin-bottom: 0;
+	font-size: 13px;
+	font-weight: 400;
+	letter-spacing: 0.1em;
+	color: #3e3d3d;
+	border: 2px solid gray;
+	width: 130px;
+	height: 36px;
+	display: block;
+	text-align: center;
+	line-height: 30px;
+	position: relative;
+}
+
+.button:hover{
+	background-color: gray;
+	color: white;
 }
 
 /****Footer********************************************/
