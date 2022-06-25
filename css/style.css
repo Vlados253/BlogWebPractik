@@ -96,6 +96,10 @@ body{
 	color: #aaaaaa;
 }
 
+.menu__link:hover{
+	color: black;
+}
+
 .menu{
 	padding: 5px 0;
 }
@@ -363,8 +367,9 @@ body{
 	border: 2px solid gray;
 	width: 130px;
 	height: 36px;
-	display: block;
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	line-height: 30px;
 	position: relative;
 }
@@ -561,7 +566,7 @@ body{
 }
 
 .messageBox{
-	width: 100%;
+		width: 100%;
   	height: 97px;
 }
 
